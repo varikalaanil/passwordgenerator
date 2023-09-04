@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+   
+    margin-top:60px;
+    margin-left:70px;
+    background-color:rgb(130, 160, 172);
+}
+#one{
+    color:white;
+    font-weight: bolder;
+
+}
+#two{
+    padding-bottom: 3px;
+    color:green;
+    font-family: monospace;
+    text-decoration: underline;
+}
+input{
+    background-color: white;
+    color:black;
+    border:1px solid white;
+    padding-left: 5px;
+    border-radius: 15px;
+    width:230px;
+    height: 25px;
+    padding-left: 7px;
+}
+button{
+    background-color: green;
+    color:white;
+    width:150px;
+    height:25px;
+    border-radius: 7px;
+    border: 2px solid green;
+}
+i{
+    margin-left:10px;
+    cursor: pointer;
+}
+@media screen and (min-width:295px) and (max-width:330px) {
+    body{
+        margin-left:20px;
+        
+    }
+}
+@media screen and (min-width:331px) and (max-width:380px) {
+    body{
+        margin-left:24px;
+        
+    }
+}
+@media screen and (min-width:381px) and (max-width:450px) {
+    body{
+        margin-left:30px;
+        
+    }
+}
